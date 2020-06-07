@@ -10,7 +10,10 @@
         display: block;
         margin: 10px;
     }
-    .link: visited{
+    .link:link{
+        color: blue;
+    }
+    .link:visited{
         color: red;
     }
 
