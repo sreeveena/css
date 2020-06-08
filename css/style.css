@@ -1,4 +1,6 @@
-
+/* selector{
+    property: value;
+} */
     body {
         background: linear-gradient(to bottom, rgb(204, 229, 255), rgba(204, 229, 255, 0.4));
         font-size: 1.15em;
@@ -33,6 +35,17 @@ img[src*="../img/"]{
 }
 /* | means any class with article-subtitle or article-subtitle.....
 like article-subtitle-20202 */
+
 /* h2[class|=article]{
     background: yellow;
 } */
+/* ~ is used for exact match */
+
+/* #title{
+    color: rgb(240, 227, 152)
+} */
+#service-image{
+    height: 500px;
+    width: 70%;
+    background: radial-gradient(circle, red 20%, blue 40%, green 50%);
+}
