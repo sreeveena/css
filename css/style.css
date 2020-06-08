@@ -6,6 +6,8 @@
         font-size: 1.15em;
         text-align: justify;
         font-family: "Lato", sans-serif;
+        /* text-transform: capitalize;
+        text-decoration: overline; */
     }
     
     input, textarea {
