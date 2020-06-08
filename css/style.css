@@ -17,4 +17,22 @@
         color: red;
     }
 
-   
+   ul > li {
+       color: green;
+   }
+   /* ul li{
+       color: blue;
+   } */
+   /* ^ means any image with ../img/ as beginning */
+img[src^="../img/"]{
+    border: 5px solid black;
+}
+/*     * means any image with ../img/  */
+img[src*="../img/"]{
+    border: 5px solid rgb(243, 162, 162);
+}
+/* | means any class with article-subtitle or article-subtitle.....
+like article-subtitle-20202 */
+/* h2[class|=article]{
+    background: yellow;
+} */
