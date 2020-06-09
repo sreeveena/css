@@ -64,6 +64,9 @@ img{
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+
 }
 .container-item{
     background-color: teal;
