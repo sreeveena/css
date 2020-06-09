@@ -8,6 +8,7 @@
         font-family: "Lato", sans-serif;
         /* text-transform: capitalize;
         text-decoration: overline; */
+        /* font-style: oblique; */
     }
     
     input, textarea {
@@ -50,4 +51,26 @@ like article-subtitle-20202 */
     height: 500px;
     width: 70%;
     background: radial-gradient(circle, red 20%, blue 40%, green 50%);
+   
+}
+img{
+    /* border: 6px solid black; */
+    margin: 40px;
+    /* padding: 40px; */
+}
+.container{
+    background-color: seagreen;
+    margin: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+.container-item{
+    background-color: teal;
+    color: white;
+    text-align: center;
+    width: 70px;
+    line-height: 50px;
+    margin: 10px;
+
 }
